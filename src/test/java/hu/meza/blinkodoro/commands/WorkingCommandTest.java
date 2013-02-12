@@ -1,10 +1,11 @@
-package hu.meza.blinkodoro;
+package hu.meza.blinkodoro.commands;
 
 import java.awt.Color;
 
 import org.junit.Test;
 import org.mockito.Mockito;
 
+import hu.meza.blinkodoro.commands.WorkingCommand;
 import thingm.blink1.Blink1;
 
 public class WorkingCommandTest {

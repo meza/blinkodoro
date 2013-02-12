@@ -3,6 +3,8 @@ package hu.meza.blinkodoro;
 import org.junit.Test;
 import org.mockito.Mockito;
 
+import hu.meza.blinkodoro.commands.Command;
+
 public class ExecutorTest {
 
     @Test

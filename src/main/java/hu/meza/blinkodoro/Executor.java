@@ -1,5 +1,7 @@
 package hu.meza.blinkodoro;
 
+import hu.meza.blinkodoro.commands.Command;
+
 public class Executor {
     private Clock clock;
 

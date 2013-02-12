@@ -1,7 +1,8 @@
-package hu.meza.blinkodoro;
+package hu.meza.blinkodoro.commands;
 
 import java.awt.Color;
 
+import hu.meza.blinkodoro.commands.Command;
 import thingm.blink1.Blink1;
 
 public class FreeCommand implements Command {

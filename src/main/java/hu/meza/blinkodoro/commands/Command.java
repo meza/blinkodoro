@@ -1,4 +1,4 @@
-package hu.meza.blinkodoro;
+package hu.meza.blinkodoro.commands;
 
 public interface Command {
     void execute();

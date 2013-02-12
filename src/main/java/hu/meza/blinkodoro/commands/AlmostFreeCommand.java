@@ -1,7 +1,8 @@
-package hu.meza.blinkodoro;
+package hu.meza.blinkodoro.commands;
 
 import java.awt.Color;
 
+import hu.meza.blinkodoro.Clock;
 import thingm.blink1.Blink1;
 
 public class AlmostFreeCommand implements Command {

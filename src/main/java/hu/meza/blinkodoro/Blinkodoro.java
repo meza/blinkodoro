@@ -1,5 +1,9 @@
 package hu.meza.blinkodoro;
 
+import hu.meza.blinkodoro.commands.AlmostFreeCommand;
+import hu.meza.blinkodoro.commands.FreeCommand;
+import hu.meza.blinkodoro.commands.ShutdownCommand;
+import hu.meza.blinkodoro.commands.WorkingCommand;
 import thingm.blink1.Blink1;
 
 public class Blinkodoro {
