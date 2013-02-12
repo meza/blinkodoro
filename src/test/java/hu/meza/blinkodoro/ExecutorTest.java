@@ -15,7 +15,7 @@ public class ExecutorTest {
 
         Command command = Mockito.mock(Command.class);
 
-        executor.execute(command, waitTime);
+        executor.executeFor(command, waitTime);
 
         Mockito.verify(clock, Mockito.times(1)).pause(Mockito.eq(waitTime));
         Mockito.verify(command, Mockito.times(1)).execute();
@@ -36,7 +36,7 @@ public class ExecutorTest {
         Executor executor = new Executor(clock);
         Command command = Mockito.mock(Command.class);
 
-        executor.repeat(command, repeatTime);
+        executor.repeatFor(command, repeatTime);
 
         Mockito.verify(command, Mockito.times(2)).execute();
 

@@ -10,12 +10,12 @@ public class Executor {
         this.clock = clock;
     }
 
-    public void execute(Command command, int waitTime) {
+    public void executeFor(Command command, int waitTime) {
         command.execute();
         clock.pause(waitTime);
     }
 
-    public void repeat(Command command, int repeatTime) {
+    public void repeatFor(Command command, int repeatTime) {
         long startTime = clock.currentTimeInMillis();
 
         while (true) {
