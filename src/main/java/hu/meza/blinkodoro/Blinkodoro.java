@@ -21,7 +21,7 @@ public class Blinkodoro {
         ShutdownCommand shutdownCommand = new ShutdownCommand(blinker);
 
         blinker.open();
-        for (int i = 0; i < CYCLES; i++) {
+        for (int cycle = 0; cycle < CYCLES; cycle++) {
             executor.execute(workingCommand, clock.minutes(BUSY_WORKING));
             executor.repeat(almostFreeCommand, clock.minutes(ALMOST_FREE_COUNTDOWN));
             executor.execute(freeCommand, clock.minutes(FREE_TIME));
